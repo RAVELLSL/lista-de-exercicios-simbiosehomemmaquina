@@ -162,8 +162,8 @@
     .container {
         flex-direction: column;
         padding: 10px;
-        overflow-x: hidden;
         margin: 0 10px; /* Ajuste para margens laterais iguais */
+        overflow-wrap: break-word; /* Garante que palavras longas sejam quebradas para evitar corte */
     }
 
     .sidebar {
@@ -189,6 +189,7 @@
         width: 90%;
     }
 }
+
 </style>
 </head>
 <body>
